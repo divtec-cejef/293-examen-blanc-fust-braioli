@@ -15,8 +15,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
 }
-img {
-    max-width: 100%;
+.Logo-Fust{
+    max-height: 80px;
     height: auto;
 }
 a {
@@ -76,29 +76,36 @@ main {
     list-style-type: none;
     padding: 0;
 }
-
 .produits li {
     padding: 2% 1rem;
     transition: all 0.2s ease-in-out;
 }
-
 .produits li:hover {
     transform: scale(1.03);
 }
-
 .produits figure {
     text-align: center;
     margin: 0;
     padding: 1.5rem .75rem;
 }
-
 .produits figcaption {
     font-size: 1.2rem;
     line-height: 2;
+    Border: 4px solid #151515;
+    justify-content: center;
 }
-
 .produits figcaption h2 {
     text-align: center;
     margin: .5em 0 0;
     line-height: 1.1;
+    color: #ff8800;
+}
+/********** STYLE FOOTER *********/
+footer {
+    background-color: #151515;
+    margin-top: 2rem;
+    padding: 20px 40px 20px 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
 }
